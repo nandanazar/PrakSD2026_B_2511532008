@@ -1,0 +1,20 @@
+package pekan2_2511532008;
+
+public class Mahasiswa_2511532008 {
+	
+	String nim;
+	String nama;
+	String prodi;
+	
+	Mahasiswa_2511532008 (String nim, String nama, String prodi) {
+		this.nim = nim;
+		this.nama = nama;
+		this.prodi = prodi;
+		
+	}
+	
+	public String toString() {
+		return "Nim : " + nim + ", Nama : " + nama + "Prodi : " + prodi;
+	}
+
+}
